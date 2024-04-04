@@ -24,3 +24,6 @@ predictions/*
 temp/*
 reports/*
 tests/
+workspace/*
+vineyards/*
+vineyards.zip

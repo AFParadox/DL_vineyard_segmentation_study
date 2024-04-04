@@ -2,7 +2,7 @@ pyyaml
 matplotlib
 rasterio
 tqdm 
-sklearn
+scikit-learn
 albumentations
 torch 
 torchvision 

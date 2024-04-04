@@ -69,7 +69,14 @@ def get_files(dir):
     #if not end:
     new_files = [f.split('.')[0] for f in files]
     # Runs only when DEBUG FLAG == TRUE
+
+    print('DEBUG 4: ', dir)
+    print('DEBUG 2: ', type(files))
+    print('DEBUG 3: ', files[0])
+    
+
     t = files[0].split('.')[1]
+
     return({'root':dir,'files':new_files,'file_type':t})
 
 def comp_agro_indices(bands, indices_to_compute):
@@ -192,6 +199,8 @@ class greenAIDataStruct():
         
         img_struct= get_files(img_dir)
         msk_struct= get_files(mask_dir)
+
+        print('DEBUG 1 :', path)
 
         if len(img_struct)==0 or len(msk_struct)==0 :
             raise NameError

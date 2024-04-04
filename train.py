@@ -279,6 +279,7 @@ if __name__ == '__main__':
   print("----------")
   print("INTERFACE:")
   print("Plot flag: ", FLAGS.plot)
+  print("Dataset: ", FLAGS.data_root)
   print("----------\n")
 
   plot_flag  = FLAGS.plot
